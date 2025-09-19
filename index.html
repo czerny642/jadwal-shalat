@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jadwal Sholat Dinamis</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+   
+    <div class="info-left">
+      <h1>Prayer Schedule</h1>
+      <div class="subtext">Prayers are on Time</div>
+
+      <div class="location" title="Today's Date">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2C8.13 2 5 5.73 5 9.65c0 5.06 6.91 11.35 6.97 11.42a.75.75 0 0 0 1.06 0c.06-.07 6.97-6.36 6.97-11.42C19 5.73 15.87 2 12 2zm0 14.5c-2.48 0-4.5-2.23-4.5-4.5s2.02-4.5 4.5-4.5 4.5 2.23 4.5 4.5-2.02 4.5-4.5 4.5z"></path>
+        </svg>
+        <div>
+          <div><strong id="city-name">Loading...</strong></div>
+          <div class="small-text">Current Location</div>
+        </div>
+      </div>
+
+      <div class="date" title="Today's Date">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 10h2v2H7zm4 0h2v2h-2zm-4 4h2v2H7zm4 0h2v2h-2zM19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 14H5V8h14z"></path>
+        </svg>
+        <div>
+          <div><strong id="full-date">Loading...</strong></div>
+          <div class="small-text">Today's Date</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="prayer-times" id="prayer-times">
+      <div class="current-time" id="current-time">--:--:-- --</div>
+      <!-- Jadwal sholat akan di-load di sini -->
+    </div>
+  </div>
+  <div class="footer">Copyright © 2025 19/09 Putu Gede Oq. All Rights Reserved.</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
